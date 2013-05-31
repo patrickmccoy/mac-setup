@@ -1,0 +1,37 @@
+[alias]
+    b   = branch
+    br  = branch -v
+    ca  = commit -a
+    cm  = commit -m
+    cam = commit -am
+    ci  = commit
+    co  = checkout
+    df  = diff
+    l   = log
+    st  = status
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr by %an)%Creset' --abbrev-commit --date=relative
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+    lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+    filelog = log -u
+    fl = log -u
+    la = "!git config -l | grep alias | cut -c 7-"
+    lasttag = describe --tags --abbrev=0
+    lt = describe --tags --abbrev=0
+    ds = diff --staged
+    amend = commit --amend -C HEAD
+    undo = reset --soft HEAD^
+    standup = log --since '1 day ago' --oneline --author patrick@pjmccoy.com
+
+
+[user]
+	name = Patrick McCoy
+	email = patrick@pjmccoy.com
+[color]
+	ui = auto
+[push]
+	default = simple
+[github]
+	user = patrickmccoy
+[core]
+	excludesfile = /Users/pmccoy/.gitignore_global
