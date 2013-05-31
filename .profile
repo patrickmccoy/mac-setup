@@ -32,3 +32,6 @@ export PATH="/usr/local/share/python:/usr/local/bin:/usr/local/sbin:/usr/local/s
 source /usr/local/share/python/virtualenvwrapper.sh
 export WORKON_HOME=/Users/pmccoy/.virtualenvs
 export PROJECT_HOME=/Users/pmccoy/code
+
+# Homebrew
+source `brew --repository`/Library/Contributions/brew_bash_completion.sh
