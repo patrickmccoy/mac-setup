@@ -19,3 +19,7 @@ Save the list of installed kegs to this repository
  - Install pip packages in the pip.txt file using the following command
 
     pip install -r pip.txt
+
+### Virtualenv
+Should be installed with the `pip` command above.  Configuration for
+virtualenvwrapper is set in the .profile
