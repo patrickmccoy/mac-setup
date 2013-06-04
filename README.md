@@ -1,6 +1,15 @@
 mac-setup
 =========
 
+# Automated Install
+Just run the following command to copy all the dotfiles, install the ssh config,
+and install Homebrew
+
+    ./setup.sh
+
+# Manual Install
+Follow these steps to install stuff manually
+
 ## Homebrew
 Install using the following command
 
