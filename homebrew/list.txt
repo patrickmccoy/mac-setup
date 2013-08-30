@@ -4,7 +4,6 @@ autoconf
 automake
 boost
 c-ares
-cairo
 cloc
 cloog
 cmake
@@ -24,7 +23,6 @@ gist
 git
 glib
 gmp
-gnutls2
 go
 gtk+
 harfbuzz
@@ -64,7 +62,6 @@ snappy
 sqlite
 sshfs
 storm
-transmission
 unrar
 virtualhost.sh
 watch

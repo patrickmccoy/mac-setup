@@ -14,6 +14,6 @@ cp $DIR/.* $HOME/.
 cp -r $DIR/.ssh $HOME/.
 
 # Install Homebrew on this system
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+#ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 # Install all the Homebrew kegs saved in $DIR/homewbrew/list.txt
 cat $DIR/homebrew/list.txt | xargs brew install
