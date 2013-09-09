@@ -6,6 +6,9 @@ filetype plugin indent on       " load file type plugins + indentation
 set number
 set ruler
 set textwidth=80
+set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWheelDown> <C-E>
 
 "" Whitespace
 set nowrap                      " don't wrap lines
